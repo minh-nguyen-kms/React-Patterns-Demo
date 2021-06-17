@@ -1,5 +1,4 @@
-export const withSideNavData = (WrappedComponent, sourceType) => ({ ...props }) => {
-  const apiSource = getAPISource(sourceType);
+export const withSideNavData = (WrappedComponent, apiSource) => ({ ...props }) => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {

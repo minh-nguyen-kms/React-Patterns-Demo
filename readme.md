@@ -6,6 +6,7 @@
 - Container View
 - Higher Oder Component
 - Render Prop
+- Portal
 
 ## 2. State accessment Patterns
 - Recuders
